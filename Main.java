@@ -50,7 +50,8 @@ public class Main {
 		initialize();
 	}
 	
-	//////////////////////////// UI ////////////////////////////
+	//////////////////////////// METHODS ////////////////////////////
+	
 	void loadColors() {
 		colorArr.add(Color.decode("#d61e4a"));
 		colorArr.add(Color.decode("#e3355f"));
@@ -164,7 +165,8 @@ public class Main {
 			selectedLabel.setBounds(panel.getBounds().x + panelSize + 50, panel.getBounds().y, colorSize * 2, colorSize * 2);
 		}
 	}
-	//////////////////////////// UI ////////////////////////////
+	
+	//////////////////////////// METHODS ////////////////////////////
 	
 	private void initialize() {
 		frame = new JFrame();
